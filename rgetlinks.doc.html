@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>rgetlinks - A small program to recursively list hyperlinks in web pages</title>
+<link rev="made" href="mailto:" />
+</head>
+
+<body style="background-color: white">
+
+<p><a name="__index__"></a></p>
+<!-- INDEX BEGIN -->
+
+<ul>
+
+	<li><a href="#name">NAME</a></li>
+	<ul>
+
+		<li><a href="#usage_summary">USAGE SUMMARY</a></li>
+		<li><a href="#abstract">ABSTRACT</a></li>
+		<li><a href="#description">DESCRIPTION</a></li>
+	</ul>
+
+	<li><a href="#see_also">SEE ALSO</a></li>
+	<li><a href="#bugs">BUGS</a></li>
+	<li><a href="#author">AUTHOR</a></li>
+	<ul>
+
+		<li><a href="#copyright_and_license">COPYRIGHT AND LICENSE</a></li>
+	</ul>
+
+</ul>
+<!-- INDEX END -->
+
+<hr />
+<p>
+</p>
+<h1><a name="name">NAME</a></h1>
+<pre>
+  rgetlinks - A small program to recursively list hyperlinks in web pages</pre>
+<pre>
+  version 0.01</pre>
+<p>
+</p>
+<h2><a name="usage_summary">USAGE SUMMARY</a></h2>
+<pre>
+  rgetlinks [depth] URL
+  rgetlinks --depth=3 <a href="http://www.perl.org">http://www.perl.org</a></pre>
+<p>
+</p>
+<h2><a name="abstract">ABSTRACT</a></h2>
+<pre>
+  This program follows hyperlinks in web pages and lists them recursively.
+  Links are ouput with indentation showing their relative depth in the crawl.
+  This program follows all links in the target document to the depth specified.</pre>
+<p>
+</p>
+<h2><a name="description">DESCRIPTION</a></h2>
+<pre>
+  This program was written to facilitate the automated download of web
+  content. It is best used in conjunction with tools like grep and lwp-download.
+  For instance, one can recursively crawl a web site with this program redirecting 
+  the output to a text file. By using grep on the resultant file, one can easily
+  create a shell script or batch file containing a series of lwp-dowload commands.</pre>
+<p>
+</p>
+<hr />
+<h1><a name="see_also">SEE ALSO</a></h1>
+<pre>
+  Other programs are being written to automate the second and third steps in the
+  above procedure.</pre>
+<p>
+</p>
+<hr />
+<h1><a name="bugs">BUGS</a></h1>
+<pre>
+  Please report any bugs to brent_hughes_[at]hotmail[dot]com.</pre>
+<pre>
+  Also, feel free to comment on the program's coding or function.</pre>
+<pre>
+  Also, let me know what other kinds of features you would like to see.</pre>
+<p>
+</p>
+<hr />
+<h1><a name="author">AUTHOR</a></h1>
+<pre>
+  Brent Hughes</pre>
+<pre>
+  brent_hughes_[at]hotmail[dot]com</pre>
+<p>
+</p>
+<h2><a name="copyright_and_license">COPYRIGHT AND LICENSE</a></h2>
+<pre>
+  Copyright 2003 by Brent Hughes</pre>
+<pre>
+  This program is free software. Do whatever you want with it.</pre>
+
+</body>
+
+</html>
